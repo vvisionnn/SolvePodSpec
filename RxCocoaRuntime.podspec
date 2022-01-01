@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "RxCocoaRuntime"
-  s.version          = "4.1.2"
+  s.version          = "6.2.0"
   s.summary          = "RxSwift Cocoa extensions"
   s.description      = <<-DESC
 * UI extensions
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc          = true
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
 
   s.public_header_files = 'RxCocoa/Runtime/include/*.{h}'
   s.source_files          = 'RxCocoa/Runtime/**/*.{h,m}'
